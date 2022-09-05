@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+         numero1 = parseInt(prompt("Valor1: "));
+         numero2 = parseInt(prompt("valor2: "));
+
+         opcoes = parseInt(prompt("Escolha uma opção: \n \n 1. Adição \n 2. Subtração \n 3. Divisão \n 4. Multiplicação"));
+
+             switch (opcoes) {
+
+                 case 1:
+                     document.write("A soma dos valores é: " + (numero1 + numero2));
+                 break;
+
+                 case 2:
+                     document.write("A subtração dos valores é: " + (numero1 - numero2));
+                 break;
+
+                 case 3:
+                     document.write("A divisão dos valores é: " + (numero1 / numero2));
+                 break;
+
+                 case 4:
+                     document.write("A multiplicação dos valores é: " + (numero1 * numero2));
+                 break;
+
+                 default:
+                     document.write("Operação não identificada!");
+                 break;
+        }
+
+    </script>
+</body>
+</html>
